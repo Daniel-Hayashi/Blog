@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Blog </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar-inverse" style="position: sticky;top: 0;z-index: 100000">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"> Daniel Hayashi </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavBar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#viagem"> Viagens </a></li>
+                    <li><a href="#filmes"> Filmes </a></li>
+                    <li><a href="#books"> Livros </a></li>
+                    <li><a href="#contacts"> Sobre mim </a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <h2 class="page-header" id="viagem"> Lugares que você tem que conhecer </h2>
+        <center>
+            <div class="viagem_mainDiv">
+            <img src="amazonia.jpg">
+            <h4 class="text-capitalize"><kbd> Amazonia </kbd></h4>
+            <hr>
+            <h5 class="text-success"> Janeiro de 2019 </h5>
+            <p class="text-muted"> Uma enorme floresta, com muitos animais e belezas naturais.
+Lá você pode conhecer a cultura dos índios, conhecer novas frutas e uma fauna e flora inteira.
+Mas leve repelentes, pois existem mosquitos em abundância na Amazonia e ninguém gosta de picadas.
+            </p>
+            </div>
+        </center>
+        <br>
+        <br>
+        <center>
+            <div class="viagem_mainDiv">
+            <img src="foz-do-iguacu.jpg">
+            <h4 class="text-capitalize"><kbd> Foz do Iguaçu </kbd></h4>
+            <hr>
+            <h5 class="text-success"> Julho de 2019 </h5>
+            <p class="text-muted"> Alguma das maiores cachoeiras do mundo senão a maior do mundo.
+     Esta se encontra na fronteira de Brasil, Argentina e Paraguai e é um grande ponto turístico.
+     Leve uma capa de chuva e se prepare para se encharcar, pois água é o que não falta lá.
+            </p>
+            </div>
+        </center>
+            <h2 class="page-header" id="filmes"> Crítica de filmes </h2>
+            <div class="bg-primary filmesHead" data-toggle="collapse" data-target="#Flash">
+            <span class="glyphicon glyphicon-film"></span> Flash <i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="Flash" class="collapse">
+            <div class="filmesText">
+                <img src="flash.jpg" class="img-responsive img-thumbnail">
+                <h5 class="text-success text-capitalize"> Excelente filme para físicos fãs da DC, mas pode ser um pouco difícil de entender.>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                </h5>
+                <p> O filme é ótimo, assisti ele nas férias e não entendi algumas partes até agora, mas a história em si é muito boa.
+                    No filme uma parte que eu não entendi foi que o Flash de outra linha do tempo empurrou o Flash para a linha do tempo dele e fez com que ele mesmo se criasse. </p>
+            </div>
+        </div>
+        <div class="bg-primary filmesHead" data-toggle="collapse" data-target="#Vingadores">
+        <span class="glyphicon glyphicon-film"></span> Vingadores Ultimato <i class="fa fa-sort-desc"></i>
+    </div>
+    <div id="Vingadores" class="collapse">
+        <div class="filmesText">
+            <img src="vingadres.jpg" class="img-responsive img-thumbnail">
+            <h5 class="text-success text-capitalize"> É um filme com muita adrenalina e mortes, incluindo a do vilão final, o Thanos, pois é o último da saga Vingadores.>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+            </h5>
+            <p> A qualidade e a história são ótimas, a combinação perfeita para um filme 5 estrelas.
+                O momento mais marcante e famoso é quando o Thanos "estava com todas as joias do infinito" e estalou o e falou "Eu sou inevitável",
+            mas não acontece nada e o Homem de Ferro estava com todas as joias e enquanto estalava o dedo para o Thanos virar pó falou "E eu sou o Homem de Ferro".  </p>
+        </div>
+    </div>
+    <h2 class="page-header" id="books"> Lista de livros </h2>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 book">
+        <img src="genio-crime.jpg" class="img-responsive">
+        <hr>
+        <a href="https://www.amazon.com.br/G%C3%AAnio-Crime-Aventura-Turma-Gordo/dp/8526010476" target="_blank"> Compre aqui o Gênio do Crime</a>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 book">
+        <img src="ADrogadoAmor.jpg" class="img-responsive">
+        <hr>
+        <a href="https://www.amazon.com.br/Droga-Amor-Cole%C3%A7%C3%A3o-Os-Karas/dp/8516095797" target="_blank"> Compre aqui a Droga do Amor</a>
+    </div>
+    <section id="contacts">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5684.118961035695!2d-46.67184545418538!3d-23.57642994125934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1698939027025!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <hr>
+        <img src="20230805_094448.jpg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+        <h3> Daniel Hayashi </h3>
+        <div class="contato_1">
+            <a href="mailto:danielhayashi27@gmail.com?Subject=Hi" target="_blank">
+                <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;danielhayashi27@gmail.com</h5>
+            </a>
+            <a href="https://www.instagram.com/daniel.hayashi_ofc/" target="_blank">
+                <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;daniel.hayashi_ofc</h5>
+            </a>
+        </div>
+    </section>
+    </body>
+</html>
